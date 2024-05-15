@@ -47,8 +47,8 @@ Documentation of pygame by TheBestia2
 	    pygame.display.update()
 	    clock.tick(60)
 	```
-
 ---
+
 - add text
 	* 'My Game' -> is just the text that we want to be display
 	* False -> is the AA (if is pixel set False, otherwise set True bc make the text more soft)
@@ -67,7 +67,9 @@ Documentation of pygame by TheBestia2
 	* 50 -> is the size of the font
 	```Python
 	text_font = pygame.font.Font('dir/fontName.ttf', 50)
-	```---
+	```
+---
+
 - add image
 	* 'dir/image.png' -> directory of the image
 	* .convert() -> convert the image so pygame can handle it easily
@@ -100,7 +102,9 @@ Documentation of pygame by TheBestia2
 	* right image -> use int values (can be used in if statement)
 	int values can be used also to assign the position of the element (for that purpose is better the tuple but not recommended)
 	![](/home/lorenzo/.var/app/io.appflowy.AppFlowy/data/AppFlowy/data/images/9b64af99-8521-44e0-aa43-f600aacf01b0.png)
+
 ---
+
 - collisions with rectangles
 	we can check a collision with a rectangle in two ways
 	* with another rectangle
@@ -175,5 +179,7 @@ Documentation of pygame by TheBestia2
 	        print('mouse up')
 	    if event.type == pygame.MOUSEBUTTONDOWN:
 	        print('mouse down')
-	```---
+	```
+---
+
 - draw
